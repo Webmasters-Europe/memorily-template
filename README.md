@@ -1,9 +1,5 @@
 <p align="center"><a href="https://www.webmasters-fernakademie.de"><img src="https://www.webmasters-fernakademie.de/images/wfa_img/logo-wfa.png?1571290125" width="400"></a></p>
 <p align="center">
-<a href="https://www.codefactor.io/repository/github/cosnavel/memorily"><img src="https://www.codefactor.io/repository/github/cosnavel/memorily/badge" alt="CodeFactor" /></a>
-    <a href="https://github.styleci.io/repos/239522723"><img src="https://github.styleci.io/repos/239522723/shield?branch=master" alt="StyleCI"></a>
-</p>
-<p align="center">
 Template für die Einsendeaufgabe der Class "Einstieg in Laravel 7"
 </p>
 
