@@ -1,0 +1,68 @@
+version: 2
+updates:
+- package-ecosystem: composer
+  directory: "/"
+  schedule:
+    interval: daily
+    time: "04:00"
+  open-pull-requests-limit: 10
+  allow:
+  - dependency-type: direct
+  - dependency-type: indirect
+  ignore:
+  - dependency-name: laravel/framework
+    versions:
+    - 7.30.2
+    - 8.36.2
+    - 8.37.0
+    - 8.38.0
+  - dependency-name: symfony/http-kernel
+    versions:
+    - 5.2.1
+    - 5.2.2
+    - 5.2.3
+    - 5.2.5
+  - dependency-name: symfony/finder
+    versions:
+    - 5.2.1
+    - 5.2.3
+    - 5.2.4
+  - dependency-name: symfony/mime
+    versions:
+    - 5.2.3
+    - 5.2.5
+  - dependency-name: symfony/polyfill-intl-idn
+    versions:
+    - 1.22.1
+  - dependency-name: symfony/polyfill-ctype
+    versions:
+    - 1.22.1
+  - dependency-name: symfony/css-selector
+    versions:
+    - 5.2.3
+    - 5.2.4
+  - dependency-name: symfony/polyfill-php73
+    versions:
+    - 1.22.1
+  - dependency-name: doctrine/annotations
+    versions:
+    - 1.11.1
+    - 1.12.1
+- package-ecosystem: npm
+  directory: "/"
+  schedule:
+    interval: daily
+    time: "04:00"
+  open-pull-requests-limit: 10
+  ignore:
+  - dependency-name: lodash
+    versions:
+    - 4.17.21
+  - dependency-name: sass
+    versions:
+    - 1.32.5
+    - 1.32.6
+    - 1.32.7
+  - dependency-name: sass-loader
+    versions:
+    - 10.1.1
